@@ -866,7 +866,7 @@ fieldset {
     #home{
         background: url(../img/home-bg-2-small.jpg) no-repeat;
         background-size: cover;
-        }
+    }
 }
 
 @media (max-width: 500px) {
@@ -906,10 +906,6 @@ fieldset {
     }
     nav li a {
         font-size: 10px;
-    }
-    #home{
-    background: url(../img/home-bg-2-small.jpg) no-repeat;
-    background-size: cover;
     }
     .vag-header{
         margin-left: 60px;
