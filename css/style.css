@@ -902,8 +902,4 @@ fieldset {
     nav li a {
         font-size: 10px;
     }
-    #home{
-        background: url(../img/home-bg-2-small.jpg) no-repeat;
-        background-size: cover;
-    }
 }
