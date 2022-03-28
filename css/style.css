@@ -862,6 +862,13 @@ fieldset {
     }
 }
 
+@media (max-width: 550px) {
+    #home{
+        background: url(../img/home-bg-2-small.jpg) no-repeat;
+        background-size: cover;
+        }
+}
+
 @media (max-width: 500px) {
     h1 {
         font-family: 'Inter', sans-serif;
@@ -871,8 +878,6 @@ fieldset {
     #home,
     .disply-table {
         height: 600px;
-        background: url(../img/home-bg-2-small.jpg) no-repeat;
-        background-size: cover;
     }
     .about-border {
         width: 265px;
@@ -901,5 +906,23 @@ fieldset {
     }
     nav li a {
         font-size: 10px;
+    }
+    #home{
+    background: url(../img/home-bg-2-small.jpg) no-repeat;
+    background-size: cover;
+    }
+    .vag-header{
+        margin-left: 60px;
+        font-size: 35px;
+    }
+    
+    .vag-subheader{
+        margin-left: 150px;
+        line-height: 0px;
+        font-size: 35px;
+    }
+    
+    .vag-header:after{
+        font-size: 15px;
     }
 }
