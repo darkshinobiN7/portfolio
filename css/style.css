@@ -304,7 +304,7 @@ a.active {
 
 #home {
     background: url(../img/home-bg-2.jpg) no-repeat;
-    transition: 5s 2s ease-in-out;
+    /* transition: 5s 2s ease-in-out; */
     height: 100vh;
     /*min-height: -webkit-fill-available;*/
     background-repeat:no-repeat;
@@ -837,16 +837,15 @@ fieldset {
 /* Responsive media queries
 ==================================================*/
 
-@media (max-width: 991px) {
-    .portfolio .categories-grid .categories ul li a {
-        padding: 0 2px;
-    }
+@media (max-width: 1199px) {
     .vag-header{
-        margin-left: 350px;
+        margin-left: 430px;
+        font-size: 55px;
     }
     
     .vag-subheader{
-        margin-left: 470px;
+        margin-left: 550px;
+        font-size: 55px;
         line-height: 0.1px;
     }
     
@@ -855,17 +854,94 @@ fieldset {
     }
 }
 
+@media (max-width: 991px) {
+    .portfolio .categories-grid .categories ul li a {
+        padding: 0 2px;
+    }
+    #home {
+        background-position-x: -100px;
+    }
+    .vag-header{
+        margin-left: 330px;
+        font-size: 50px;
+    }
+    
+    .vag-subheader{
+        margin-left: 440px;
+        font-size: 50px;
+        line-height: 0px;
+    }
+    
+    .vag-header:after{
+        font-size: 20px;
+    }
+}
+
 @media (max-width: 768px) {
     .timeline-event-copy {
         width: 90%;
         left: 2em;
     }
+    #home {
+        background-position-x: -190px;
+    }
+    .vag-header {
+        margin-left: 290px;
+        font-size: 45px;
+        line-height: 30px;
+    }
+    
+    .vag-subheader {
+        margin-left: 390px;
+        line-height: 0px;
+        font-size: 45px;
+    }
+    
+    .vag-header:after {
+        font-size: 15px;
+    }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 649px) {
+    #home {
+        background-position-x: -260px;
+    }
+    .vag-header{
+        margin-left: 230px;
+        font-size: 40px;
+        line-height: 30px;
+    }
+    
+    .vag-subheader{
+        margin-left: 320px;
+        line-height: 0px;
+        font-size: 40px;
+    }
+    
+    .vag-header:after {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 564px) {
     #home{
         background: url(../img/home-bg-2-small.jpg) no-repeat;
         background-size: cover;
+    }
+    .vag-header{
+        margin-left: 120px;
+        font-size: 45px;
+        line-height: 30px;
+    }
+    
+    .vag-subheader{
+        margin-left: 220px;
+        line-height: 0px;
+        font-size: 45px;
+    }
+    
+    .vag-header:after {
+        font-size: 15px;
     }
 }
 
@@ -887,16 +963,19 @@ fieldset {
         margin: 10px 0;
     }
     .vag-header{
-        margin-left: 80px;
+        margin-left: 45px;
+        font-size: 45px;
+        line-height: 30px;
     }
     
     .vag-subheader{
-        margin-left: 150px;
+        margin-left: 140px;
         line-height: 0px;
+        font-size: 45px;
     }
     
-    .vag-header:after{
-        font-size: 18px;
+    .vag-header:after {
+        font-size: 15px;
     }
 }
 
